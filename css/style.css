@@ -1,0 +1,314 @@
+* {
+    background-color: #F4F2DE;
+    padding: 0;
+    margin: 0;
+    color: #301D10;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex; 
+    align-items: center;
+    align-items: baseline;
+}
+
+.header-logo {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #A1CCD1;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+
+h1 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+h2 {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.header-links {
+    font-family: 'Maven Pro', sans-serif;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+}
+
+nav,
+nav ul{
+    display: flex;
+}
+
+.header-links i{
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 900px) {
+    .header-links i{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header-links  nav ul {
+        display: none;
+    }
+}
+
+nav a .info-page:hover{
+   font-size: 2.3rem;
+}
+
+
+
+.header-links a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.header-links span {
+    margin-right: 15px;
+}
+
+.header-links nav ul a:hover {
+    color: #A1CCD1;
+}
+
+main {
+    width: 80%;
+    margin-top: 250px;
+    margin-left: 15px;
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        margin-left: 250px;
+        margin-top: 200px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    main {
+        margin-top: 60px;
+    }
+}
+
+
+
+
+.image {
+    display: flex;
+    width: 100;
+}
+
+@media screen and (max-width: 900px) {
+    .image {
+        display: inline;
+        margin-top: 20px;
+    }
+}
+
+.image-home {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-size: 100%;
+    z-index: 1;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 900px) {
+    .image-home {
+        width: 280px;
+        height: 280px;
+        margin: 30px 0 0 100px;
+    }
+}
+
+
+
+.content {
+    margin-left: 30px;
+    margin-top: 20px;
+    width: max-content;
+}
+
+    
+
+
+.hello {
+    font-size: 100px;
+    font-family: 'Cormorant Infant', serif;
+    text-align: start;
+    margin-left: 0;
+}
+
+.content h3 {
+    font-family: 'Cormorant Infant', serif;
+    margin-left: 0;
+}
+
+.content p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+
+.circle {
+    display: flex;
+}
+
+.figure {
+    margin-top: 20px;
+    font-family: 'Cormorant Infant', serif;
+    width: 140px;
+    height: 140px;
+    border: 0.5px solid black;
+    border-radius: 50%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+    .figure {
+        height: 130px;
+        width: 130px;
+        margin-top: 20px;
+    }
+}
+
+.circle-resume {
+    background-color: #A1CCD1;
+    text-align: center;
+}
+
+
+.circle-projects {
+    background-color: #E9B384;
+    text-align: center;
+}
+
+.circle-contact {
+    background-color: #7C9D96;
+    text-align: center;
+}
+
+.circle a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: 'Cormorant Infant', serif;
+    background-color: transparent;
+    font-size: 22px;
+
+}
+
+.figure:hover {
+    background-color: #f8f4f1;
+    transition: all 0.5s ease-out
+}
+
+
+
+hr{
+    align-self: center;
+    color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 70px;
+} 
+
+.container {
+    margin:auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer{
+    padding: 50px 0 20px 100px;
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        padding: 50px 0 20px 0;
+    }
+}
+    
+
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-family: 'Cormorant Infant', serif;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+
+
+.footer-col .social-media-link{
+    display:flex;
+}
+
+
+.footer-col ul li {
+   font-size: 1.125rem;
+   text-decoration: none;
+   display: block;
+   transition: all 0.3s ease;
+}
+.footer-col ul li a {
+    text-decoration: none;
+}
+
+.footer-col ul li a i {
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
+}
+.footer-col ul li:hover {
+    padding-left: 8px;
+    color: #A1CCD1;
+}
+
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 190%;
+        margin-bottom: 30px;
+    }
+}
+

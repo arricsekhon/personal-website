@@ -1,0 +1,110 @@
+* {
+    background-color: #F4F2DE;
+    padding: 0;
+    margin: 0;
+    color: #301D10;
+}
+
+
+
+
+.project-content h1 {
+    font-size: 42px;
+    font-family: 'Cormorant Infant', serif;
+    margin-top: 70px;
+    margin-left: 110px;
+}
+
+.project-info {
+    display: flex;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.project-desc-content{
+    margin-top: 40px;
+}
+
+.project-title h3 {
+    font-size: 26px;
+    font-family: 'Cormorant Infant', serif;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+
+.project-img{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+.image-project {
+    width: 600px;
+    height: 400px;
+    margin-right: 10px;
+}
+
+.project-desc-content {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    margin-left: 110px;
+    width: 500px;
+}
+
+.image-smartAI{
+    width: 800px;
+    height: 400px;
+}
+
+
+@media screen and (max-width: 900px) {
+    /* Set the display property of the project-info class to flex, and wrap its children */
+    .project-info {
+      display: block;
+      height: auto;
+      margin-top: 20px;
+    }
+  
+    .project-content h1 {
+      font-size: 32px;
+      margin-top: 40px;
+      margin-left: 30px;
+    }
+  
+    .project-title h3 {
+      font-size: 30px;
+      margin-top: 20px;
+      margin-left: 30px;
+    }
+  
+    .project-img {
+      margin-top: 20px;
+      margin-left: 30px;
+    }
+  
+    .image-project {
+      width: 450px;
+      height: 300px;
+      margin-right: 10px;
+    }
+  
+    .project-desc-content {
+      font-size: 14px;
+      margin-left: 30px;
+      width: 80%;
+      max-width: 500px;
+    }
+  
+    .image-smartAI {
+      width: 80%;
+      height: 80%;
+    }
+  }
+ 
+
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,28 @@
+body a{
+    text-decoration: none;
+}
+.icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+}
+
+div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+div a {
+    text-decoration: none;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+div a:hover {
+    color: #A1CCD1;
+}
